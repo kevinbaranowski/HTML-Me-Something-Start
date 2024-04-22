@@ -1,1 +1,90 @@
 /* Write your CSS here! */
+#copyright {
+    border-style: solid none none none;
+    border-width: 1px;
+}
+
+body {
+    margin: 8px;
+    display: block;
+    background-color: #F49586;
+}
+
+#mainHeading {
+    color: red;
+    text-align: center;
+    font-family: Brush Script MT;
+    font-size:xx-large;
+}
+
+.funParagraph {
+    display: flex;
+    color: green;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px;
+    background-color: #F49586;
+    border: 2px dashed #F0E4CE;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.funParagraph:hover {
+    transform: scale(1.05);
+    color: #F49586;
+    background-color: #F0E4CE;
+    border-color: black;
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+    border-top: solid 3px;
+    border-color: #F0E4CE;
+    padding-top: 1rem;
+}
+
+div > p {
+    color: #F0E4CE;
+}
+
+img {
+    border: solid 2px;
+}
+
+.img_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_article {
+    background-color: #F0E4CE;
+    border: solid;
+    border-width: 1px;
+    padding: 1rem;
+}
+
+.sub_article {
+    display: flex;
+    flex-direction: column;
+    background-color: #A1C9D7;
+    border: solid;
+    border-width: 1px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 70px 5px 70px;
+}
+
+figcaption {
+    font-size: small;
+    text-align: center;
+}
+
+footer {
+    font-size: small;
+    padding-top: 2px;
+}
